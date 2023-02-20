@@ -19,12 +19,12 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body className={`${montserrat.className}`}>
+      <body className={`${montserrat.className} px-5 py-10`}>
         <nav>
           <h1>NextJSDemo</h1>
           <ul>
             <li>
-              <a href='#'>Home</a>
+              <a href='/'>Home</a>
             </li>
             <li>
               <a href='#'>About</a>
